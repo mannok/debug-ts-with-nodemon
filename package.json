@@ -1,0 +1,19 @@
+{
+  "name": "ts-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "debug": "nodemon -e ts,tsx --exec node --inspect=5858 -r ts-node/register ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
